@@ -24,7 +24,7 @@
 \section*{\large{General Information}}
 
 \normalsize{{\bf Title:} Causal Models in Linguistics, Philosophy, and Psychology \\
-\noindent {\bf Areas:} Language and Computation \\
+\noindent {\bf Areas:} Logic and Language \\
 \noindent {\bf Category:} Foundational Course}
 
 \section*{\large{Instructors}}
@@ -53,13 +53,15 @@ This course explains and motivates formal models of causation built around Bayes
 
 Theories of causation---long the provenance mainly of metaphysics, philosophy of science, and inferential statistics---have emerged recently as a crucial topic in the cognitive sciences. Much of the momentum for the recent surge of interest in causation has come from technical innovations in causal modeling due to \citet{spirtes93,pearl00}, among others. These models provide a formal semantics for theories of causation which have been applied fruitfully to numerous issues in philosophy, psychology, and linguistics. This course is designed to provide a unifiying perspective on causal models, allowing students to access the literatures on causal models, to identify points of connection between the problems and solutions explored in the somewhat fragmented subliteratures in different fields. Day 1 will begin with an overview, some general motivation for the importance of causation across multiple domains, and a brief description of two of the most influential kinds of causal models---causal Bayes nets and structural equation models---including comparison of these models with the familiar world-ordering, or ``system of spheres'', models.
 
-Around the same time that causal Bayes nets and structural equation models were being developed, psychologists began to explore the idea that important aspects of higher-level cognition are shaped by intuitive theories of the causal/explanatory structure of the world \citep{keil89,gopnikmeltzoff97}. This has been explored for conceptual structure, reasoning, decision-making, and intuitive theories of various specific domains of knowledge such as physics and biology. It was quickly noted that causal Bayes nets provide a natural way to formalize intuitive theories \citep{glymour01,gopnik04,gopnikschultz07}. Day 2 of the course will describe the application of causal Bayes nets to various issues in psychology, as well as approaches to learning causal models from experience and questions about how well our intuitive theories map onto reality.
+Much of the technical literature on causation has taken place in computer science, by theorists interested in problems of causal inference and reasoning \citep{spirtes93,pearl00,Peters,BCII2020}. Day 2 will present, in a broadly accessible way, some of the key ideas and results from this literature. When can we in fact draw causal conclusions from observational or experimental data? What kinds of formal languages are suitable for encoding substantive causal assumptions? In the second half of this lecture we will transition to discuss the kinds of \emph{psychological} biases and inferential strategies that infants and adult humans bring to causal learning and inference tasks \citep{glymour01,gopnik04,gopnikschultz07}. Some of the prominent ideas here have their origin in the earlier philosophical and computational work, but we also see genuinely new ways of thinking about causal induction. In particular we will highlight the idea that human causal knowledge may be implemented in a more \emph{procedural} manner, making use of ideas like \emph{simulation} \citep{gerstenberg21}, a theme that will continue through the course.
 
-Day 3 will survey issues around ``actual'' or token-level causation (which events actually cause which others), which stands in opposition to the more common application of causal models to type-level or generic causation (see, e.g., \citealt{halpernpearl05a,halpernpearl05b}). We will discuss the relationship between type and token causation, and then survey formal and psychological results on the impact of statistical norms and other kinds of norms, or defaults, to judgments of causation.
+%Around the same time that causal Bayes nets and structural equation models were being developed, psychologists began to explore the idea that important aspects of higher-level cognition are shaped by intuitive theories of the causal/explanatory structure of the world \citep{keil89,gopnikmeltzoff97}. This has been explored for conceptual structure, reasoning, decision-making, and intuitive theories of various specific domains of knowledge such as physics and biology. It was quickly noted that causal Bayes nets provide a natural way to formalize intuitive theories \citep{glymour01,gopnik04,gopnikschultz07}. Day 2 of the course will describe the application of causal Bayes nets to various issues in psychology, as well as approaches to learning causal models from experience and questions about how well our intuitive theories map onto reality.
 
-The literatures on causation in philosophy, psychology, computer science, and linguistics still remain somewhat fragmented. Linguists and philosophers of language, in particular, are just beginning to explore the potential of formal models of causation to inform linguistic semantics and pragmatics. Day 4 of the course will concentrate on natural language, discussing applications of causal models to the lexical semantics of items such as ``cause, make, enable, prevent'' \citep{wolff03,sloman09} as well as the semantics of indicative and counterfactual conditionals (e.g., \citealt{pearl00,schulz07,sloman05b,deghanietal12,kaufmann13}). We will also address pragmatic issues in some detail, focusing on the way that causal knowledge may influence the interpretation of conditionals, and several instances in which attention to natural language pragmatics is crucial in interpreting the results of psychological experiments which ask people to make explicit judgments involving counterfactuals or linguistic items such as ``cause''.
+Day 3 will survey issues around ``actual'' or token-level causation (which events actually cause which others), which stands in opposition to the more common application of causal models to type-level or generic causation (see, e.g., \citealt{halpernpearl05a,halpernpearl05b}). This opens up broader issues about \emph{explanation} and related social concepts like \emph{blame} and \emph{responsibility}. We will discuss the relationship between type and token causation, and then survey formal and psychological results on the impact of statistical norms and other kinds of norms, or defaults, to judgments of causation \citep{halpern2015graded,Icard2017}.
 
-Causal Bayes nets and structural equation models are ``propositional'' in terms of expressive power, but causal models can also be used to illuminate learning and reasoning about which objects exist in the world and which relations hold between them. Day 5 introduces and motivates enriched models of causation built around probabilistic programming techniques, where causal knowledge can inform learning about existence of objects and arbitrarily complex relationships among them (e.g., \citealt{goodmanetal08,gerstenberg17}). 
+The literatures on causation in philosophy, psychology, computer science, and linguistics still remain somewhat fragmented. Linguists and philosophers of language, in particular, are just beginning to explore the potential of formal models of causation to inform linguistic semantics and pragmatics. Days 4 and 5 of the course will concentrate on natural language, discussing applications of causal models to the lexical semantics of items such as ``cause, make, enable, prevent'' \citep{wolff03,sloman09} as well as the semantics of indicative and counterfactual conditionals (e.g., \citealt{pearl00,schulz07,sloman05b,deghanietal12,kaufmann13}, add recent papers by Dan here). We will also address pragmatic issues in some detail, focusing on the way that causal knowledge may influence the interpretation of conditionals, and several instances in which attention to natural language pragmatics is crucial in interpreting the results of psychological experiments which ask people to make explicit judgments involving counterfactuals or linguistic items such as ``cause''.
+
+%Causal Bayes nets and structural equation models are ``propositional'' in terms of expressive power, but causal models can also be used to illuminate learning and reasoning about which objects exist in the world and which relations hold between them. Day 5 introduces and motivates enriched models of causation built around probabilistic programming techniques, where causal knowledge can inform learning about existence of objects and arbitrarily complex relationships among them (e.g., \citealt{goodmanetal08,gerstenberg17}). 
 
 \section*{\large{Tentative Outline}}
 
@@ -70,13 +72,18 @@ Summarizing the schedule described above, the tentative outline is as follows:
   \item Background, Motivation, and Technical Basics.
   \item Causal Learning and Reasoning.
   \item Actual Causation: Causes, Statistics, and Norms.
-  \item Counterfactuals and Causal Language.
-  \item Beyond Bayes Nets: Probabilistic Programs.
+  \item Causality and Conditionals.
+  \item Causal Verbs and the Meaning of `Cause'.
 \end{enumerate}
 }
 
 \section*{\large{Expected Level and Prerequisites}}
 No specific background in linguistics, psychology, or philosophy will be assumed. However, facility with logic, formal semantics, and probability theory will be useful in allowing students to absorb and focus on the concepts explored. 
+
+
+\section*{\large{Background on Instructors}}
+
+Both instructors have taught numerous courses at ESSLLI, as well as NASSLLI \dots  
 
 \bibliographystyle{apalike}
 \bibliography{refs.bib}
